@@ -2,7 +2,7 @@
 
 A arquitetura implementa um pipeline baseado na **Medallion Architecture (Bronze → Silver → Gold)**, garantindo **backfill histórico** e **observabilidade**.
 
-<img src="img/pipeline_architecture.png" alt="Arquitetura do Pipeline – Medallion Architecture">
+<img src="https://i.postimg.cc/MKT7NmjM/pipeline-architecture.jpg">
 
 **Figura:** Arquitetura do pipeline com camadas Bronze, Silver e Gold, observabilidade e backfill.
 

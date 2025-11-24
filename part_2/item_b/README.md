@@ -18,7 +18,7 @@ Dicionário de dados: https://ons-aws-prod-opendata.s3.amazonaws.com/dataset/bal
         * [Local](sql/local/02_upsert_fact_energia.sql)
 
 ### Execução
-1. Pipeline Local (Bronze → Silver):
+1. Pipeline Local:
     Execute o [notebook](main.ipynb) para realizar a extração, normalização e geração dos arquivos Parquet.
-2. Carga no Data Warehouse (Silver → Gold):
+2. Carga no Banco de dados (DW):
     Utilize o [notebook load_gold](load_gold.ipynb)￼para carregar os dados tratados no banco analítico final, simulando o processo de ingestão para a camada final de consumo.
